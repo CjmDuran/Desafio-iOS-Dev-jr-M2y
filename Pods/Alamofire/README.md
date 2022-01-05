@@ -1,3 +1,24 @@
+Desafio iOS Dev jr M2y - README
+
+Instruções:
+o uso do app está bloqueado somente para a localizacão de filmes e sua visualização por meio do navegador Safari.
+Isto ocorre pois com o tempo e recursos disponíveis foi a maneira que consegui de deixar o app funcional e com apelo ao consumidor.
+
+Sobre a API Tmdb:
+A api em questão apresenta algumas dificuldades de se trabalhar, em testes foi localizado erros na requisição que o site dá ao desenvolvedor, necesitando que o mesmo ache um novo caminho para a utilização do banco de dados.
+O maior problema/falha da api em relação ao app solicitado é em sua busca, não aceitando a correção de seus caracteres fazendo com que o usuário tenha que utilizar de caracteres especiais em sua busca, exemplifico esta situação abaixo.
+
+Exemplo de utilização:
+Ao buscar por um filme com nomes com espaçamento é necessário que seja utilizado o caractere especial &, sem ele a api não consegue realizar a requisição.
+
+Ex - The&Batman, Harry&potter, etc.
+
+Notas adicionais:
+Agradeço pela oportunidade e experiência provinda deste desafio, com toda a certeza já agregou muito em meus estudos e aprendizado com programação.
+
+Atenciosamente.
+
+
 ![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
 
 [![Swift](https://img.shields.io/badge/Swift-5.3_5.4_5.5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5-Orange?style=flat-square)
