@@ -1,0 +1,6 @@
+framework module Pods_Desafio_DeviOS_jr___M2y {
+  umbrella header "Pods-Desafio DeviOS jr - M2y-umbrella.h"
+
+  export *
+  module * { export * }
+}

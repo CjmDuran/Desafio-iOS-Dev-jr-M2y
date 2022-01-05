@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4268922B27861A4300AD2B26 /* blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4268922A27861A4300AD2B26 /* blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png */; };
+		42FBD561277D0F60003C9212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD560277D0F60003C9212 /* AppDelegate.swift */; };
+		42FBD563277D0F60003C9212 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD562277D0F60003C9212 /* SceneDelegate.swift */; };
+		42FBD565277D0F60003C9212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD564277D0F60003C9212 /* ViewController.swift */; };
+		42FBD568277D0F60003C9212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD566277D0F60003C9212 /* Main.storyboard */; };
+		42FBD56A277D0F61003C9212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD569277D0F61003C9212 /* Assets.xcassets */; };
+		42FBD56D277D0F61003C9212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD56B277D0F61003C9212 /* LaunchScreen.storyboard */; };
+		42FBD57C277D1141003C9212 /* APIservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD57B277D1141003C9212 /* APIservice.swift */; };
+		42FBD57F277D14DB003C9212 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD57D277D14DB003C9212 /* MoviesTableViewCell.swift */; };
+		42FBD580277D14DB003C9212 /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD57E277D14DB003C9212 /* MoviesTableViewCell.xib */; };
+		42FBD58C277E91C1003C9212 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBD58A277E91C1003C9212 /* DetailViewController.swift */; };
+		42FBD58D277E91C1003C9212 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD58B277E91C1003C9212 /* DetailViewController.xib */; };
+		42FBD59227834014003C9212 /* blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FBD59127834014003C9212 /* blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png */; };
+		CFD00CAE108E0AA9EE2DF821 /* Pods_Desafio_DeviOS_jr___M2y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA89FA4B21FB10E6DD7DD634 /* Pods_Desafio_DeviOS_jr___M2y.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2EFDE4970425F83EAFAA73 /* Pods-Desafio DeviOS jr - M2y.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio DeviOS jr - M2y.release.xcconfig"; path = "Target Support Files/Pods-Desafio DeviOS jr - M2y/Pods-Desafio DeviOS jr - M2y.release.xcconfig"; sourceTree = "<group>"; };
+		4268922A27861A4300AD2B26 /* blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png"; path = "Images/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png"; sourceTree = SOURCE_ROOT; };
+		42FBD55D277D0F60003C9212 /* Desafio DeviOS jr - M2y.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio DeviOS jr - M2y.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FBD560277D0F60003C9212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FBD562277D0F60003C9212 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42FBD564277D0F60003C9212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FBD567277D0F60003C9212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FBD569277D0F61003C9212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FBD56C277D0F61003C9212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FBD56E277D0F61003C9212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FBD57B277D1141003C9212 /* APIservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIservice.swift; sourceTree = "<group>"; };
+		42FBD57D277D14DB003C9212 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		42FBD57E277D14DB003C9212 /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
+		42FBD58A277E91C1003C9212 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		42FBD58B277E91C1003C9212 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		42FBD59127834014003C9212 /* blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png"; path = "Images/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png"; sourceTree = SOURCE_ROOT; };
+		BA89FA4B21FB10E6DD7DD634 /* Pods_Desafio_DeviOS_jr___M2y.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Desafio_DeviOS_jr___M2y.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2A3DB1C27E6144468189C3 /* Pods-Desafio DeviOS jr - M2y.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio DeviOS jr - M2y.debug.xcconfig"; path = "Target Support Files/Pods-Desafio DeviOS jr - M2y/Pods-Desafio DeviOS jr - M2y.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FBD55A277D0F60003C9212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD00CAE108E0AA9EE2DF821 /* Pods_Desafio_DeviOS_jr___M2y.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB41F4A9718854567499587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD2A3DB1C27E6144468189C3 /* Pods-Desafio DeviOS jr - M2y.debug.xcconfig */,
+				2F2EFDE4970425F83EAFAA73 /* Pods-Desafio DeviOS jr - M2y.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		42FBD554277D0F60003C9212 = {
+			isa = PBXGroup;
+			children = (
+				42FBD55F277D0F60003C9212 /* Desafio DeviOS jr - M2y */,
+				42FBD55E277D0F60003C9212 /* Products */,
+				3CB41F4A9718854567499587 /* Pods */,
+				47B36CA2DDB52ADEF434F3F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42FBD55E277D0F60003C9212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD55D277D0F60003C9212 /* Desafio DeviOS jr - M2y.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FBD55F277D0F60003C9212 /* Desafio DeviOS jr - M2y */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD574277D105E003C9212 /* Random */,
+				42FBD575277D106A003C9212 /* API */,
+				42FBD576277D1089003C9212 /* View */,
+				42FBD577277D108E003C9212 /* Model */,
+				42FBD578277D1096003C9212 /* ViewModel */,
+			);
+			path = "Desafio DeviOS jr - M2y";
+			sourceTree = "<group>";
+		};
+		42FBD574277D105E003C9212 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD58E27833E55003C9212 /* Images */,
+				42FBD569277D0F61003C9212 /* Assets.xcassets */,
+				42FBD56E277D0F61003C9212 /* Info.plist */,
+				42FBD56B277D0F61003C9212 /* LaunchScreen.storyboard */,
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
+		42FBD575277D106A003C9212 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD57B277D1141003C9212 /* APIservice.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		42FBD576277D1089003C9212 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD589277E8248003C9212 /* Cells */,
+				42FBD566277D0F60003C9212 /* Main.storyboard */,
+				42FBD58A277E91C1003C9212 /* DetailViewController.swift */,
+				42FBD58B277E91C1003C9212 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42FBD577277D108E003C9212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD562277D0F60003C9212 /* SceneDelegate.swift */,
+				42FBD560277D0F60003C9212 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42FBD578277D1096003C9212 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD564277D0F60003C9212 /* ViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		42FBD589277E8248003C9212 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD57D277D14DB003C9212 /* MoviesTableViewCell.swift */,
+				42FBD57E277D14DB003C9212 /* MoviesTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		42FBD58E27833E55003C9212 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42FBD59127834014003C9212 /* blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png */,
+				4268922A27861A4300AD2B26 /* blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		47B36CA2DDB52ADEF434F3F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA89FA4B21FB10E6DD7DD634 /* Pods_Desafio_DeviOS_jr___M2y.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FBD55C277D0F60003C9212 /* Desafio DeviOS jr - M2y */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FBD571277D0F61003C9212 /* Build configuration list for PBXNativeTarget "Desafio DeviOS jr - M2y" */;
+			buildPhases = (
+				CA60AB7E1D084192CF2B2F8C /* [CP] Check Pods Manifest.lock */,
+				42FBD559277D0F60003C9212 /* Sources */,
+				42FBD55A277D0F60003C9212 /* Frameworks */,
+				42FBD55B277D0F60003C9212 /* Resources */,
+				97C577223529734E5B7B3B3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio DeviOS jr - M2y";
+			productName = "Desafio DeviOS jr - M2y";
+			productReference = 42FBD55D277D0F60003C9212 /* Desafio DeviOS jr - M2y.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FBD555277D0F60003C9212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					42FBD55C277D0F60003C9212 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 42FBD558277D0F60003C9212 /* Build configuration list for PBXProject "Desafio DeviOS jr - M2y" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FBD554277D0F60003C9212;
+			productRefGroup = 42FBD55E277D0F60003C9212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FBD55C277D0F60003C9212 /* Desafio DeviOS jr - M2y */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FBD55B277D0F60003C9212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FBD56D277D0F61003C9212 /* LaunchScreen.storyboard in Resources */,
+				42FBD56A277D0F61003C9212 /* Assets.xcassets in Resources */,
+				42FBD58D277E91C1003C9212 /* DetailViewController.xib in Resources */,
+				4268922B27861A4300AD2B26 /* blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.png in Resources */,
+				42FBD580277D14DB003C9212 /* MoviesTableViewCell.xib in Resources */,
+				42FBD59227834014003C9212 /* blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png in Resources */,
+				42FBD568277D0F60003C9212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97C577223529734E5B7B3B3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio DeviOS jr - M2y/Pods-Desafio DeviOS jr - M2y-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio DeviOS jr - M2y/Pods-Desafio DeviOS jr - M2y-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio DeviOS jr - M2y/Pods-Desafio DeviOS jr - M2y-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA60AB7E1D084192CF2B2F8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio DeviOS jr - M2y-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FBD559277D0F60003C9212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FBD57F277D14DB003C9212 /* MoviesTableViewCell.swift in Sources */,
+				42FBD57C277D1141003C9212 /* APIservice.swift in Sources */,
+				42FBD565277D0F60003C9212 /* ViewController.swift in Sources */,
+				42FBD58C277E91C1003C9212 /* DetailViewController.swift in Sources */,
+				42FBD561277D0F60003C9212 /* AppDelegate.swift in Sources */,
+				42FBD563277D0F60003C9212 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42FBD566277D0F60003C9212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FBD567277D0F60003C9212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FBD56B277D0F61003C9212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FBD56C277D0F61003C9212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FBD56F277D0F61003C9212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FBD570277D0F61003C9212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FBD572277D0F61003C9212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2A3DB1C27E6144468189C3 /* Pods-Desafio DeviOS jr - M2y.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCQ676S372;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio DeviOS jr - M2y/Random/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duran.carlos.Desafio-DeviOS-jr---M2y";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FBD573277D0F61003C9212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2EFDE4970425F83EAFAA73 /* Pods-Desafio DeviOS jr - M2y.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCQ676S372;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Desafio DeviOS jr - M2y/Random/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "duran.carlos.Desafio-DeviOS-jr---M2y";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FBD558277D0F60003C9212 /* Build configuration list for PBXProject "Desafio DeviOS jr - M2y" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FBD56F277D0F61003C9212 /* Debug */,
+				42FBD570277D0F61003C9212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FBD571277D0F61003C9212 /* Build configuration list for PBXNativeTarget "Desafio DeviOS jr - M2y" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FBD572277D0F61003C9212 /* Debug */,
+				42FBD573277D0F61003C9212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FBD555277D0F60003C9212 /* Project object */;
+}

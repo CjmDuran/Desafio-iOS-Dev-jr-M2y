@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Desafio_DeviOS_jr___M2y" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k6L-PW-7IN">
+                                <rect key="frame" x="0.0" y="130" width="414" height="606"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fIZ-KA-6fY">
+                                <rect key="frame" x="0.0" y="88" width="414" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png" translatesAutoresizingMaskIntoConstraints="NO" id="G0z-aj-V1R">
+                                <rect key="frame" x="87" y="0.0" width="240" height="80"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="G0z-aj-V1R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="292-XL-LQ9"/>
+                            <constraint firstItem="G0z-aj-V1R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="ApV-P7-BQH"/>
+                            <constraint firstItem="k6L-PW-7IN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EY8-wg-CjY"/>
+                            <constraint firstItem="k6L-PW-7IN" firstAttribute="top" secondItem="fIZ-KA-6fY" secondAttribute="bottom" constant="8" symbolic="YES" id="GWe-SY-M4s"/>
+                            <constraint firstItem="k6L-PW-7IN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="JnN-6j-g4b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k6L-PW-7IN" secondAttribute="bottom" id="K2U-Bb-uvh"/>
+                            <constraint firstItem="fIZ-KA-6fY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="MUA-eW-lgf"/>
+                            <constraint firstItem="fIZ-KA-6fY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NUl-e6-tcG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k6L-PW-7IN" secondAttribute="trailing" id="Yjb-dA-BLO"/>
+                            <constraint firstItem="fIZ-KA-6fY" firstAttribute="top" secondItem="G0z-aj-V1R" secondAttribute="bottom" constant="8" id="dtA-a5-NkU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G0z-aj-V1R" secondAttribute="trailing" constant="87" id="gg7-h6-cUR"/>
+                            <constraint firstItem="fIZ-KA-6fY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="np8-Cu-h3W"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="27b-03-CSb"/>
+                    <connections>
+                        <outlet property="tField" destination="fIZ-KA-6fY" id="tYd-Yr-c65"/>
+                        <outlet property="tableView" destination="k6L-PW-7IN" id="z4m-dL-YEc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926.08695652173924" y="93.750000000000014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.png" width="273" height="36"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
